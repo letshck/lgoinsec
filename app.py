@@ -36,4 +36,4 @@ def recognize():
     return jsonify({"match": False})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(dhost='0.0.0.0', port=10000)
